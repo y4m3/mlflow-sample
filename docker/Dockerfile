@@ -4,9 +4,11 @@ FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update --fix-missing \
     && apt-get install -y \
+        build-essential \
         bzip2 \
         ca-certificates \
         curl \
+        fonts-noto-cjk \
         git \
         htop \
         locales \
