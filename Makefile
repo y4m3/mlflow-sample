@@ -99,7 +99,7 @@ jupyterlab: ## start Jupyter Lab server
 	jupyter lab --allow-root --ip=0.0.0.0 --port=${JUPYTER_CONTAINER_PORT}
 
 mlflow: ## start MLflow server
-	mlflow server --port ${MLFLOW_PORT} --host 0.0.0.0
+	mlflow server --port ${MLFLOW_CONTAINER_PORT} --host 0.0.0.0
 
 test: ## run test cases in tests directory
 	$(PYTHON) -m unittest discover
