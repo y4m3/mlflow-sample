@@ -8,7 +8,7 @@ dependencies:
   - autopep8=1.4.4=py_0
   - flake8=3.7.7=py37_0
   - isort=4.3.21=py37_0
-  - jupyter=1.0.0=py37_7
+  - notebook=6.0.1=py37_0
   - jupyterlab=1.0.2=py37hf63ae98_0
   - keras=2.2.5=py37_1
   - lightgbm=2.2.1=py37he6710b0_0
