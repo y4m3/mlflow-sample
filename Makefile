@@ -91,7 +91,6 @@ create-container: ## create docker container
 start-container: ## start docker container
 	@echo "$$START_DOCKER_CONTAINER" | $(SHELL)
 	@echo "Launched $(CONTAINER_NAME)..."
-	$(DOCKER) attach $(CONTAINER_NAME) "/bin/bash"
 
 jupyter: ## start Jupyter Notebook server
 	jupyter-notebook --allow-root --ip=0.0.0.0 --port=${JUPYTER_CONTAINER_PORT}
