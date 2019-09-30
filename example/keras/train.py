@@ -1,3 +1,7 @@
+'''Keras example
+Base example:
+    https://github.com/mlflow/mlflow/blob/master/examples/keras/train.py
+'''
 import tempfile
 
 import mlflow
@@ -50,8 +54,7 @@ def model(max_words, num_classes):
 
 
 # set mlflow keras autolog
-'''
-mlflow.keras.autolog func logs following contents (mlflow==1.2.0).
+'''mlflow.keras.autolog func logs following contents (mlflow==1.2.0).
 - Parameteres
   - epsilon
   - learning_rate
