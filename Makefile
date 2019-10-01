@@ -129,3 +129,6 @@ clean-container: ## remove Docker container
 
 clean-image: ## remove Docker image
 	-$(DOCKER) image rm $(IMAGE_NAME)
+
+# This Makefile cites cookiecutter-docker-science and modified.
+# https://github.com/docker-science/cookiecutter-docker-science/blob/master/%7B%7B%20cookiecutter.project_slug%20%7D%7D/Makefile
