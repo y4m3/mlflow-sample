@@ -1,5 +1,17 @@
 # mlflow-sample
 
+## Table of Contents
+
+* [Table of Contents](#table-of-contents)
+* [Environments](#environments)
+* [Build docker image](#build-docker-image)
+* [How to use make commands](#how-to-use-make-commands)
+    * [Run docker container](#run-docker-container)
+    * [Start stopped docker container](#start-stopped-docker-container)
+    * [Remove docker container](#remove-docker-container)
+* [Special Thanks](#special-thanks)
+* [Licence](#licence)
+
 ## Environments
 
 All codes runs in docker container. Makefile has useful commands to use docker.
